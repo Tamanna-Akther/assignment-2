@@ -168,7 +168,7 @@ footer{
 
 @media only screen and (max-width:688px) {
     .popular{
-        max-width: 600px;
+        max-width: 250px;
         
     }
     .start-one{
@@ -182,7 +182,7 @@ footer{
     .populars,
     .gallery{
         grid-template-columns: 1fr;
-        width: 400px;
+        width: 250px;
     }
     .gallery .photo img{
         width: 250px;
