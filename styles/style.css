@@ -190,6 +190,12 @@ footer{
     .popular .popular-banner img{
         width: 250px;
     }
+    .container{
+        width: 250px;
+    }
+    .container .see-more{
+        width: 250px;
+    }
 
 }
 /* tablet media query */
