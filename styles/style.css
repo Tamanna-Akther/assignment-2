@@ -166,30 +166,45 @@ footer{
 /* media query mobile*/
 
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:688px) {
+    .popular{
+        max-width: 300px;
+        
+    }
     .start-one{
+        display: block;
+        gap: 0;
         grid-template-columns: 1fr;
-        width: fit-content;
+    }
+    .start-pic img{
+        width: 250px;
     }
     .populars,
     .gallery{
         grid-template-columns: 1fr;
+        width: 400px;
     }
-    .start-one h1{
-        font-size: none;
+    .gallery .photo img{
+        width: 250px;
     }
-}
+    .popular .popular-banner img{
+        width: 250px;
+    }
 
+}
 /* tablet media query */
 
 @media only screen and (min-width:601px) and (max-width:992px) {
     .start-one{
         grid-template-columns: repeat(2, 1fr);
-        width: fit-content;
+        max-width: 400px;
     }
     .populars,
     .gallery{
         grid-template-columns: repeat(2, 1fr);
+    }
+    .photo img{
+        width: 100%;
     }
     
 }
